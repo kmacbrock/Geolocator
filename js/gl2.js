@@ -5,7 +5,7 @@ var ipScript = document.createElement("script");
 	
 var gmScript = document.createElement("script");
 	gmScript.type = "text/javascript";
-	gmScript.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBCsWssQW96q8OkLIhGcTbdwMmzM6jgcUs&signed_in=true&callback=?";
+	gmScript.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBCsWssQW96q8OkLIhGcTbdwMmzM6jgcUs&signed_in=true&callback=gl";
 	document.head.appendChild(gmScript);
 	
 function testClick(){
