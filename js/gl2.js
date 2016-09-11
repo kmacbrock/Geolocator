@@ -5,7 +5,7 @@ var ipScript = document.createElement("script");
 	
 var gmScript = document.createElement("script");
 	gmScript.type = "text/javascript";
-	gmScript.src = "http://maps.googleapis.com/maps/api/js?sensor=true";
+	gmScript.src = "http://maps.googleapis.com/maps/api/js?sensor=false";
 	document.head.appendChild(gmScript);
 	
 function testClick(){
